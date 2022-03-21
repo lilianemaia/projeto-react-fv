@@ -1,0 +1,29 @@
+.pedidos {
+  height: 100%;
+  background: #ffae00;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.pedidos h2,
+h4 {
+  color: white;
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.box-pedidos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.box-pedidos img {
+  height: 200px;
+  width: 200px;
+}
+.alignnone {
+  margin: 1px 4px 0 0;
+  padding: 3px;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+}
